@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: "/gatsby-fasion-landing-v1",
   siteMetadata: {
-    title: `Gatsby Travel Website`,
-    description: `Traver website showcasing the best travel desinations and deals online.`,
+    title: `Gatsby Promo Fasion Website`,
+    description: `Test gatsby with gsap and treejs animation.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
