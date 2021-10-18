@@ -7,9 +7,6 @@ import Media from "../components/common/Media"
 import Content from "../components/common/Content"
 import Sponsor from "../components/common/Sponsor"
 import Overlays from "../components/common/Overlays"
-import {
-  Wrapper
-} from './MainStyledComponents'
 import Distortion from "../components/common/Distortion"
 
 
@@ -17,15 +14,14 @@ const IndexPage = () => (
   <WithAnimation>
     <Layout>
       <Seo title="Home" />
-      <Wrapper>
+      <div>
         <Overlays />
         <Header />
         <Media />
         <Content />
         <Sponsor />
         <Distortion />
-      </Wrapper>
-
+      </div>
     </Layout>
   </WithAnimation>
 
