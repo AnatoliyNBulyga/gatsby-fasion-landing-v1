@@ -36,25 +36,25 @@ const WithAnimation = ({children}) => {
     });
 
     // TEXT
-    gsap.from(".text h1 .hidetext", {
+    gsap.from("h1 .hidetext", {
       delay: 1,
       y: "100%",
       ease: 'ease-in-out'
     });
 
-    gsap.from(".text h3 .hidetext", {
+    gsap.from("h3 .hidetext", {
       delay: 1.2,
       y: "100%",
       ease: 'ease-in-out'
     });
 
-    gsap.from(".text p .hidetext", {
+    gsap.from("p .hidetext", {
       delay: 1.3,
       y: "100%",
       ease: 'ease-in-out'
     });
 
-    gsap.from(".text h2", {
+    gsap.from(".content h2", {
       delay: 1.5,
       opacity: 0,
       x: "-10000",
