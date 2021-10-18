@@ -16,13 +16,12 @@ const Content = () => {
       </ContentH1>
       <ContentH2>duality</ContentH2>
       <ContentH3>
-        <HideText className='hidetext'>collection 2017 <br/> duality</HideText>
+        <HideText className='hidetext'>October’s <br/>Hottest Fashion Drops</HideText>
       </ContentH3>
       <ContentText>
         <HideText className='hidetext'>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quis, delectus facere
-          neque sunt commodi quae
-          culpa dolores doloribus magnam?
+          October means fall is officially here—and.
+          Read on for this month’s hottest drops, launches, and collaborations
         </HideText>
       </ContentText>
     </ContentContainer>
